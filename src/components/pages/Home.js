@@ -7,7 +7,7 @@ import {
     Input, 
     InputGroupAddon, 
     Button, 
-    Card, CardImg, CardImgOverlay, CardTitle, CardText } from 'reactstrap';
+    Card, CardImg, CardImgOverlay } from 'reactstrap';
 import SimpleLineIcon from 'react-simple-line-icons';
 
 export default class Home extends Component {
@@ -15,7 +15,7 @@ export default class Home extends Component {
         return (
             <Container>
                 <Row className="big-pad">
-                    <Col md={6} className="text-white">
+                    <Col md={6} className="text-white mt-5">
                         <h1 className="font-weight-bold font-weight-bold">
                             <span className="text-danger">Everything is about <br /> to</span> Change
                         </h1>

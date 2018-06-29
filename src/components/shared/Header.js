@@ -30,7 +30,7 @@ export default class Header extends Component {
             <Navbar color="transparent" dark expand="md">
                 <Container>
                     <NavbarBrand href="/">
-                        <img src={require('../../assets/img/logo.png')} class="logoImg"/>
+                        <img src={require('../../assets/img/logo.png')} className="logoImg"/>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
