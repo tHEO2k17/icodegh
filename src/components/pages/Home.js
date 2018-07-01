@@ -15,11 +15,11 @@ export default class Home extends Component {
         return (
             <Container>
                 <Row className="big-pad">
-                    <Col md={7} className="text-white">
-                        <h1 className="font-weight-bold font-weight-bold">
+                    <Col md={7}>
+                        <h1 className="font-weight-bold text-white">
                             <span className="text-danger">Everything <br /> is about <br /> to</span> Change
                         </h1>
-                        <InputGroup className="shadow mt-5 ">
+                        <InputGroup className="shadow mt-5">
                             <Input className="bg-dark text-white border-0" />
                             <InputGroupAddon addonType="append">
                                 <Button color="danger">
