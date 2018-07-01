@@ -9,7 +9,7 @@ import {
     NavLink,
     Container
 } from 'reactstrap';
-
+import SimpleLineIcon from 'react-simple-line-icons';
 
 export default class Header extends Component {
     constructor(props) {
@@ -30,16 +30,20 @@ export default class Header extends Component {
             <Navbar color="transparent" dark expand="md">
                 <Container>
                     <NavbarBrand href="/">
-                        <img src={require('../../assets/img/logo.png')} className="logoImg"/>
+                        <img src={require('../../assets/img/logo.png')} className="logoImg" />
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="#">About Us</NavLink>
+                                <NavLink href="https://www.facebook.com/iCODEGh/" className="text-muted">
+                                    <SimpleLineIcon name="social-facebook" />
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Contact Us</NavLink>
+                                <NavLink href="https://twitter.com/icodeteam" className="text-muted">
+                                    <SimpleLineIcon name="social-twitter" />
+                                </NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
