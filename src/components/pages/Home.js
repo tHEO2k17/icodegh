@@ -115,7 +115,7 @@ export default class Home extends Component {
                     <Container>
                         <Row>
                             <Col>
-                                <h4><SimpleLineIcon name="support" size="large" style={{ "display": "inline" }} /> &nbsp;Partners and Client</h4>
+                                <h4><SimpleLineIcon name="support" size="large" style={{ "display": "inline" }} /> &nbsp;Partners and Startups</h4>
                             </Col>
                         </Row>
                         <Row>
