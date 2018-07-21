@@ -46,62 +46,56 @@ export default class Home extends Component {
                         <Row>
                             <Col>
                                 <h4><SimpleLineIcon name="briefcase" size="large" style={{ "display": "inline" }} /> &nbsp;Services</h4>
-                                <Row >
-                                    <Col md={4} className="big-pad">
-                                        <h6 className="text-danger">What we do</h6>
-                                        <p>
-                                            We are pacesetters in developing special events and experiences for and with different partners. <br />
-                                            We take this role very seriously because well-developed events and experiences, give our partners a glimpse into endless possibilities that can be achieved.
+                                <h6 className="text-danger">What we do</h6>
+                                <p>
+                                    We are pacesetters in developing special events and experiences for and with different partners. <br />
+                                    We take this role very seriously because well-developed events and experiences, give our partners a glimpse into endless possibilities that can be achieved.
                                 </p>
-                                    </Col>
-                                    <Col>
-                                        <Row>
-                                            <Col className="pt-3">
-                                                <Card>
-                                                    <CardBody>
-                                                        <h6 className="text-danger">Co-working <br />Offices</h6>
-                                                        <p>
-                                                            We offer co-working offices for startups.
-                                                </p>
-                                                    </CardBody>
-                                                </Card>
-                                            </Col>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="pt-3">
+                                <Card>
+                                    <CardBody>
+                                        <h6 className="text-danger">Co-working Offices</h6>
+                                        <p>
+                                            We offer co-working offices for startups.
+                                                        </p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
 
-                                            <Col className="pt-3">
-                                                <Card>
-                                                    <CardBody>
-                                                        <h6 className="text-danger">Private <br /> Offices</h6>
-                                                        <p>
-                                                            We offer private offices for businesses
-                                                </p>
-                                                    </CardBody>
-                                                </Card>
-                                            </Col>
-                                        </Row>
-                                        <Row className="pt-3">
-                                            <Col className="pt-3">
-                                                <Card>
-                                                    <CardBody>
-                                                        <h6 className="text-danger">Event <br /> Spaces</h6>
-                                                        <p>
-                                                            We offer event space for indoor and outdoor programs / training
-                                                </p>
-                                                    </CardBody>
-                                                </Card>
-                                            </Col>
-                                            <Col className="pt-3">
-                                                <Card>
-                                                    <CardBody>
-                                                        <h6 className="text-danger">Corporate Meeting Rooms</h6>
-                                                        <p>
-                                                            We offer meeting rooms for corporate and group meetings
-                                                </p>
-                                                    </CardBody>
-                                                </Card>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
+                            <Col className="pt-3">
+                                <Card>
+                                    <CardBody>
+                                        <h6 className="text-danger">Private Offices</h6>
+                                        <p>
+                                            We offer private offices for businesses
+                                                        </p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                        </Row>
+                        <Row className="pt-3">
+                            <Col className="pt-3">
+                                <Card>
+                                    <CardBody>
+                                        <h6 className="text-danger">Event Spaces</h6>
+                                        <p>
+                                            We offer event space for indoor and outdoor programs / training
+                                                        </p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                            <Col className="pt-3">
+                                <Card>
+                                    <CardBody>
+                                        <h6 className="text-danger">Corporate Meeting Rooms</h6>
+                                        <p>
+                                            We offer meeting rooms for corporate and group meetings
+                                                        </p>
+                                    </CardBody>
+                                </Card>
                             </Col>
                         </Row>
                     </Container>
