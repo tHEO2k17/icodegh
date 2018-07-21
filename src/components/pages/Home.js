@@ -32,14 +32,10 @@ export default class Home extends Component {
                         <Row>
                             <Col>
                                 <h4><SimpleLineIcon name="bulb" size="large" style={{ "display": "inline" }} /> &nbsp;ABOUT US</h4>
-                                <Card>
-                                    <CardBody>
-                                        <h6 className="text-danger">A little about ICODEGH</h6>
-                                        <p>
-                                            ICODEGH is an organization who is supporting technology and creatvie start-ups in western region by acting as an organization to build the ecosystem of technology entrepreneurs and startup business by promoting innovation and entrepreneurship in Ghana.
-                                        </p>
-                                    </CardBody>
-                                </Card>
+                                <h6 className="text-danger">A little about ICODEGH</h6>
+                                <p>
+                                    ICODEGH is an organization who is supporting technology and creatvie start-ups in western region by acting as an organization to build the ecosystem of technology entrepreneurs and startup business by promoting innovation and entrepreneurship in Ghana.
+                                </p>
                             </Col>
                         </Row>
                     </Container>
@@ -51,7 +47,7 @@ export default class Home extends Component {
                             <Col>
                                 <h4><SimpleLineIcon name="briefcase" size="large" style={{ "display": "inline" }} /> &nbsp;Services</h4>
                                 <Row >
-                                    <Col className="big-pad">
+                                    <Col md={4} className="big-pad">
                                         <h6 className="text-danger">What we do</h6>
                                         <p>
                                             We are pacesetters in developing special events and experiences for and with different partners. <br />
@@ -60,7 +56,7 @@ export default class Home extends Component {
                                     </Col>
                                     <Col>
                                         <Row>
-                                            <Col>
+                                            <Col className="pt-3">
                                                 <Card>
                                                     <CardBody>
                                                         <h6 className="text-danger">Co-working <br />Offices</h6>
@@ -71,7 +67,7 @@ export default class Home extends Component {
                                                 </Card>
                                             </Col>
 
-                                            <Col>
+                                            <Col className="pt-3">
                                                 <Card>
                                                     <CardBody>
                                                         <h6 className="text-danger">Private <br /> Offices</h6>
@@ -83,7 +79,7 @@ export default class Home extends Component {
                                             </Col>
                                         </Row>
                                         <Row className="pt-3">
-                                            <Col>
+                                            <Col className="pt-3">
                                                 <Card>
                                                     <CardBody>
                                                         <h6 className="text-danger">Event <br /> Spaces</h6>
@@ -93,7 +89,7 @@ export default class Home extends Component {
                                                     </CardBody>
                                                 </Card>
                                             </Col>
-                                            <Col>
+                                            <Col className="pt-3">
                                                 <Card>
                                                     <CardBody>
                                                         <h6 className="text-danger">Corporate Meeting Rooms</h6>
@@ -119,7 +115,7 @@ export default class Home extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3}>
+                            <Col md={3} className="pt-5">
                                 <h6 className="text-danger">Our Partners</h6>
                                 <img src={require('../../assets/img/Our_Partners/AHK.png')} className="partner_img" alt="" />
                                 <img src={require('../../assets/img/Our_Partners/british_council.png')} className="partner_img" alt="" />
@@ -136,7 +132,7 @@ export default class Home extends Component {
                                 <img src={require('../../assets/img/Our_Partners/social_entrepreneurs.png')} className="partner_img" alt="" />
                                 <img src={require('../../assets/img/Our_Partners/TUKWAN.png')} className="partner_img" alt="" />
                             </Col>
-                            <Col md={{ size: 8, offset: 1 }} >
+                            <Col md={{ size: 8, offset: 1 }} className="pt-5">
                                 <h6 className="text-danger">Start-ups We Have Engaged</h6>
                                 <img src={require('../../assets/img/Business_Startups/Aeroster.png')} className="partner_img" alt="" />
                                 <img src={require('../../assets/img/Business_Startups/ahadfarms.png')} className="partner_img" alt="" />

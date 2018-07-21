@@ -83,6 +83,7 @@ h2 {
 #banner{
   background: #212529;
   padding-top: 10%;
+  padding-bottom: 5%;
   text-align: center;
   min-height: 80vh;
 }
