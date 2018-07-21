@@ -7,9 +7,8 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Container
+    Container, Button
 } from 'reactstrap';
-import SimpleLineIcon from 'react-simple-line-icons';
 
 export default class Header extends Component {
     constructor(props) {
@@ -27,25 +26,41 @@ export default class Header extends Component {
     }
     render() {
         return (
-            <Navbar color="transparent" dark expand="md">
+            <Navbar color="white" light expand="md">
                 <Container>
                     <NavbarBrand href="/">
-                        <img src={require('../../assets/img/logo.png')} className="logoImg" />
+                        <img src={require('../../assets/img/logo-l.jpg')} className="logoImg rounded-circle" alt=""/>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="https://www.facebook.com/iCODEGh/" className="text-muted">
-                                    <SimpleLineIcon name="social-facebook" />
+                            {/* <NavItem>
+                                <NavLink href="#home">
+                                    Home
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://twitter.com/icodeteam" className="text-muted">
-                                    <SimpleLineIcon name="social-twitter" />
+                                <NavLink href="#about">
+                                    About
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#services">
+                                    Services
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#partners">
+                                    Partners
+                                </NavLink>
+                            </NavItem> */}
+                            <NavItem>
+                                <NavLink href="#contact">
+                                    Contact Us
                                 </NavLink>
                             </NavItem>
                         </Nav>
+                        <Button color="danger" className="btn-pill">Join us</Button>
                     </Collapse>
                 </Container>
             </Navbar>

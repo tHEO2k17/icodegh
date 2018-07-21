@@ -1,12 +1,107 @@
-body{
-  background: #23232B;
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('../fonts/GothamRounded-Bold.otf') format('otf'),
+       url('../fonts/GothamRounded-BoldItalic.otf') format('otf'),
+       url('../fonts/GothamRounded-Book.otf') format('otf'),
+       url('../fonts/GothamRounded-BookItalic.otf') format('otf'),
+       url('../fonts/GothamRounded-Light.otf') format('otf'),
+       url('../fonts/GothamRounded-LightItalic.otf') format('otf'),
+       url('../fonts/GothamRounded-Medium.otf') format('otf'),
+       url('../fonts/GothamRounded-MediumItalic.otf') format('otf');
+       font-size: normal;
+       font-weight: normal;
 }
-.big-pad{
+
+body {
+  font-family: 'Gotham Rounded', sans-serif;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gotham Rounded', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+h2 {
+  line-height: 2.8rem;
+}
+
+.logoImg {
+  width: 40px;
+}
+
+.partner_img {
+  width: 85px;
+  filter: grayscale(50%);
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.partner_img:hover {
+  filter: grayscale(0%);
+}
+
+.navbar-light {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Gotham Rounded', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.text-danger {
+  color: #E64C3D !important;
+}
+
+.btn-danger, .btn-danger:hover {
+  background-color: #E64C3D;
+  border-color: #E64C3D;
+}
+
+.btn-outline-danger {
+  border-color: #E64C3D;
+  color: #E64C3D;
+}
+
+.btn-outline-danger:hover {
+  border-color: #E64C3D;
+  background-color: #E64C3D;
+}
+.big-pad {
   padding-top: 10%;
 }
-h1{
-  font-size: 3rem;
+
+#banner{
+  background: #212529;
+  padding-top: 10%;
+  text-align: center;
+  min-height: 80vh;
 }
-.logoImg{
-width: 80px;
+
+#about{
+  background: #fafafa;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+#services{
+  background: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#partners{
+  background: #FAFAFA;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
